@@ -1,0 +1,80 @@
+{
+  "appraisal_framework": {
+    "builder_operator_usd_per_second": 0.14,
+    "commercialization_window_usd_per_second": 0.42,
+    "formula": "USD per second = hourly rate / 3600",
+    "ip_creation_usd_per_second": 0.28,
+    "protected_floor_usd_per_second": 0.07
+  },
+  "asset_name": "STRNEDUCIFIED ChatGPT-Structured Proof of Labor",
+  "asset_type": "non-financial proof-of-labor / verifiable-credential-ready artifact manifest",
+  "claim": {
+    "description": "Tokenization-ready proof-of-labor appraisal claim backed by prior GitHub-anchored artifacts and fieldwork/provenance records.",
+    "not_a_payment": "This manifest records a proof-of-labor claim and appraisal framework. It is not actual payment or enforceable debt by itself.",
+    "not_a_security_or_investment": "This manifest does not offer profit, equity, dividends, revenue share, resale expectation, or investment return."
+  },
+  "evidence_anchors": [
+    {
+      "commit": "750472ebd01161551168277f02d51cac928ea824",
+      "label": "AI provenance note",
+      "path": "provenance/ai-provenance-note-joseph-skrobynets-2026-05-11.md",
+      "repo": "overandor/gas-memory-collateral"
+    },
+    {
+      "commit": "6da9c5035cc37f055d5d7127a526b45701d143b4",
+      "label": "Notary-ready IP provenance declaration template",
+      "path": "provenance/notary-ready-ip-provenance-declaration-template-2026-05-11.md",
+      "repo": "overandor/gas-memory-collateral"
+    },
+    {
+      "commit": "2cd42781f42fc04a29af61538c49ad07dea2dd90",
+      "label": "Fieldwork artifact - litter/system intelligence",
+      "path": "fieldwork/field-artifact-litter-system-intelligence-2026-05-11.md",
+      "repo": "overandor/gas-memory-collateral",
+      "source_image_sha256": "774d3dfb011681d51edced3692b230344fe3c340ead3132e09af74890c76d5d7"
+    },
+    {
+      "commit": "70aeb7ad91f9f0fbf7064ff35d1a36476162ed92",
+      "label": "Notary + LLM KYC + blockchain anchoring protocol",
+      "path": "protocols/notary-llm-kyc-blockchain-asset-anchoring-network-2026-05-11.md",
+      "repo": "overandor/gas-memory-collateral"
+    },
+    {
+      "commit": "435cf55452501142c2f35ba0e83ea93288d92086",
+      "label": "Human Provenance Collateralization Engine blueprint",
+      "path": "protocols/human-provenance-collateralization-engine-blueprint-2026-05-11.md",
+      "repo": "overandor/gas-memory-collateral"
+    }
+  ],
+  "issuer_context": {
+    "generated_by": "ChatGPT",
+    "issuer_role": "AI evidence processor, not legal issuer, not notary, not payment obligor",
+    "official_backing": "Not backed by OpenAI, ChatGPT, or any institution unless later separately contracted."
+  },
+  "manifest_integrity": {
+    "canonical_manifest_without_manifest_integrity_sha256": "6c3a1f902a0fe07415dd4b070fbf51de2a4e161a9059d157f14af7c9a4d59dd8"
+  },
+  "private_key_handling": "No private key generated, stored, requested, or transmitted by ChatGPT. User must create and custody their own wallet locally.",
+  "recipient_public_wallet_address": "PENDING_USER_PROVIDED_PUBLIC_ADDRESS",
+  "safe_minting_route": {
+    "step_1": "User creates wallet locally in a reputable wallet app or hardware wallet.",
+    "step_2": "User shares only the public address, never the private key or seed phrase.",
+    "step_3": "Manifest is updated with public address.",
+    "step_4": "User may mint as a non-transferable proof token / soulbound-style credential / NFT metadata record, subject to legal review.",
+    "step_5": "If the token is marketed, sold, or redeemable for value, legal and tax review is required before launch."
+  },
+  "schema": "strneducified.proof_of_labor.v1",
+  "status": "self-asserted; AI-structured; GitHub-timestamped; wallet-address-pending",
+  "subject": {
+    "associated_handles": [
+      "overandor",
+      "jskroby",
+      "carpathianwolfjoseph"
+    ],
+    "name": "Joseph Skrobynets",
+    "primary_github": "overandor"
+  },
+  "symbol": "STRN-POL",
+  "timestamp_anchor_intent": "GitHub commit timestamp plus future optional blockchain transaction / OpenTimestamps / notarized declaration.",
+  "version": "1.0"
+}
